@@ -11,20 +11,20 @@ export type Result = {
     language: string;
     genres: string[];
     status: string;
-    runtime: null;
+    runtime: any;
     averageRuntime: number;
     premiered: string;
-    ended: null;
+    ended: any;
     officialSite: string;
     schedule: {
       time: string;
       days: string[];
     };
     rating: {
-      average: null;
+      average: any;
     };
     weight: number;
-    network: null;
+    network: any;
     webChannel: {
       id: number;
       name: string;
@@ -33,13 +33,13 @@ export type Result = {
         code: string;
         timezone: string;
       };
-      officialSite: null;
+      officialSite: any;
     };
-    dvdCountry: null;
+    dvdCountry: any;
     externals: {
-      tvrage: null;
-      thetvdb: null;
-      imdb: null;
+      tvrage: any;
+      thetvdb: any;
+      imdb: any;
     };
     image: null | {
       medium: string;
